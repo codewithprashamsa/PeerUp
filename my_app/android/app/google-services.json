@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225323041887",
+    "project_id": "peerup-d0b96",
+    "storage_bucket": "peerup-d0b96.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225323041887:android:b8a06717ecba03fcfa07ea",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Yd4AYrS9xtXVSxsgMFfJwWwJivc8uTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

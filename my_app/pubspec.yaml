@@ -30,10 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
 
   # Make sure these are aligned with "flutter:", NOT shifted underneath "sdk:"
   http: ^1.2.0
   cupertino_icons: ^1.0.8
+  firebase_core: ^4.11.0
+  firebase_auth: ^6.5.3
 # dependencies:
 #   flutter:
 #     sdk: flutter
@@ -59,11 +62,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
+
+  # Ensure assets is indented by exactly 2 spaces
+  assets:
+    # Ensure the dash is indented by exactly 4 spaces
+    - assets/logo.png
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
